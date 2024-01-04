@@ -1,0 +1,337 @@
+/* css for all */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.bg{
+    background-color: #ececec;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+
+}
+
+
+.triple{
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+
+.text-right{
+ text-align: right;
+}
+
+.text-center{
+ text-align: center;
+}
+
+
+.clearfix{
+    clear: both;
+    float:none;
+}
+
+
+
+
+
+
+
+
+
+a{
+    color: #4863A0;
+    text-decoration: none;
+}
+a:hover{
+    color: tomato;
+}
+
+
+
+
+
+/* css for navbar section */
+.navbar{
+    background-color: #ececec;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width:50%;
+    display: flex;
+    float: left;
+
+}
+
+
+.text{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.menu{
+    line-height: 100px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding:1%;
+}
+
+/* css for navbar section ends */
+
+
+
+
+/* Css for main-content */
+.main-content {
+    padding: 4% 0;
+    background-color: #ececec;
+}
+.wrapper {
+     padding: 1%;
+     width: 80%;
+     margin: 0 auto;
+
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* main content ends */
+
+
+
+
+/* manage admin section starts */
+
+.btn-primary {
+    font-weight: bold;
+    font-size: 25px;
+    padding: 1%;
+}
+
+.tbl{
+    width: 100%;
+}
+
+.tbl tr th{
+    border-bottom: 1px solid black;
+    /* padding: 2%; */
+    padding-top: 2%;
+    padding-bottom: 5%;
+    text-align: left;
+}
+
+table tr td{
+    padding:1%;
+    font-size: 20px;
+}
+
+.update{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2%;
+    margin-right: 5%;
+    color: #43b064;
+}
+
+.update:hover{
+    color: #168737;
+    cursor: pointer;
+}
+
+
+.delete{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2%;
+    margin-right: 5%;
+    color: #ff6b81;
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: #ff4757;
+}
+
+
+/* manage admin section ends */
+
+
+/* add admin section starts */
+
+.admin{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+.add-admin{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 1% 2%;
+    margin-top: 3%;
+    color: #43b064;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.add-admin:hover{
+    color: #168737;
+    cursor: pointer;
+}
+
+
+.tbl-form{
+    width:45%;
+}
+
+.success{
+    color: #43b064;
+}
+
+.error{
+    color: #ff4757;
+}
+
+/* add admin section ends */
+
+
+
+
+
+/* update admin form */
+
+.updateAdmin{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+
+
+
+
+
+/* change password */
+.change{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 2%;
+    margin-right: 5%;
+    color: #3498DB ;
+}
+
+.change:hover{
+    color: #2980B9 ;
+    cursor: pointer;
+}
+
+.changePassword{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 5%;
+}
+
+
+
+/* css for social starts */
+
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding:1%;
+}
+.social {
+    background-color: #ececec;
+}
+/* css for social ends */
+
+
+
+.footer{
+    background-color: #ececec;
+}
+
+.contact{
+    display: grid;
+}
+
+
+
+/* Css for admin Login */
+
+.login_container{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 50px 50px -50px darkslategray;
+}
+
+.login_container .myform{
+    width: 270px;
+    margin-right: 30px;
+}
+
+.login_container .myform h1 {
+    color:#1c1c1e;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.login_container .myform input{
+    border: none;
+    outline: none;
+    width: 100%;
+    border-bottom: 2px solid #1c1c1e;
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 14px;
+}
+
+.login_container .myform button{
+    color:white;
+    background-color: #1c1c1e;
+    border: none;
+    outline:none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+}
+
+.login_container .myform button:hover{
+    cursor: pointer;
+}

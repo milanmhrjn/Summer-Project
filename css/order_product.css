@@ -1,0 +1,137 @@
+/* css for all */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+
+.triple{
+    height: 100px;
+    width: 100px;
+    mix-blend-mode: multiply;
+}
+
+.text-right{
+ text-align: right;
+}
+
+.text-center{
+ text-align: center;
+}
+
+
+.clearfix{
+    clear: both;
+    float:none;
+}
+
+a{
+    color: #4863A0;
+    text-decoration: none;
+}
+a:hover{
+    color: tomato;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color: #4863A0;
+    color:white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: tomato;
+}
+
+h2{
+    color:#2f3542;  
+    font-size: 2rem;
+    margin: 2% 0;
+}
+
+
+/* css for navbar section */
+.navbar{
+    background-color: #ececec;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.logo{
+    width:50%;
+    display: flex;
+    float: left;
+
+}
+
+
+.text{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.menu{
+    line-height: 100px;
+    font-size: larger;
+    font-weight: 500;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding:1%;
+}
+
+/* css for navbar section ends */
+
+
+
+
+
+
+/* css for social starts */
+
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding:1%;
+}
+.social {
+    background-color: #ececec;
+}
+/* css for social ends */
+
+
+
+.footer{
+    background-color: #ececec;
+}
+
+
+.contact{
+    display: grid;
+}
